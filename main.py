@@ -40,7 +40,7 @@ def my_agent(observation, configuration):
         #print(available)
         for window in windows:
             window_eval=0
-            our_cnt,other_cnt,empty,avails=(0,0,0,0)
+            our_cnt,other_cnt,avails=(0,0,0,0)
             for (x,y) in window:
                 if (x,y) in available:
                     avails+=1
